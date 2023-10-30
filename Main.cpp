@@ -7,7 +7,6 @@
 #include <windows.h>
 #include <stdbool.h>
 #define COBJMACROS
-#include <gameinput.h>
 
 using namespace DirectX;
 
