@@ -1,6 +1,6 @@
-# Input Tester Results
+# The Public Version Is Unfinished & Unmaintained
 
-Core findings are:
+However, our core findings are:
 - 8-10 bits per stick axis is enough, and stick axis is no more than 16 bits in hardware.
 - Fixed point representation for stick axis is sufficient.
 - A sample rate of 120hz is sufficient for most hardware.
