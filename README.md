@@ -1,6 +1,6 @@
-# The Public Version Is Unfinished & Unmaintained
+# SimInt Findings
 
-However, our core findings are:
+Unfortunately, much of the work for the original SimInt tester ended up being covered by NDAs or NCs. I can't push the code up, as a result, but the synthesis of the findings is explicitly not covered by those agreements. As a result, I can provide some insight on how best practices for managing extremely low latency control input. Our core findings are:
 - 8-10 bits per stick axis is enough, and stick axis is no more than 16 bits in hardware.
 - Fixed point representation for stick axis is sufficient.
 - A sample rate of 120hz is sufficient for most hardware.
